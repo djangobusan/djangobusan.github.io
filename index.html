@@ -1,26 +1,45 @@
 ---
 layout: default
 ---
+<!-- This loops through the paginated posts -->
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">    
+      
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-<div class="container row">
-    <h1 class="cv-title"><span class="black white-text">{{ site.title }}</span></h1>
-    {% assign steps = site.steps | sort: 'date' %}
-    {% for step in steps %}
-    <div class="item">
-        <i class="vertical-line"></i>
-        <h2 class="item-date">{{ step.date | date: '%m/%Y' }}{% if step.enddate %} - {{ step.enddate | date: '%m/%Y' }}{% endif %}</h2>
-        <div class="card-panel">
-            <h3 class="card-title">
-                {{ step.title }}
-            </h3>
-            <p>
-                {{ step.content }}
-            </p>
-        </div>
-    </div>
-    {% endfor %}
-    <div class="last-item">
-        <i class="vertical-line"></i>
-        
-    </div>
-    </div>
+      <div class="entry">
+        {{ post.content | strip_html | truncatewords:40}}
+      </div>
+      
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">더 읽기</a>
+    </article>
+  {% endfor %}
+</div>
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; 이전</a>
+  {% else %}
+    <span>&laquo; 이전</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">다음 &raquo;</a>
+  {% else %}
+    <span>다음 &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

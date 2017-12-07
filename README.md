@@ -1,34 +1,5 @@
-# jekyll-timeline
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Sigmadream's Book Blog
 
+* 이 블로그는 Jekyll Now를 수정하여 만든 [Easyjekyll](http://halryang.net/Jekyll-Blogging-For-Beginners/)를 사용한 것입니다. 
 
-Visualize time structured data with this simple jekyll-template.  
-This Jekyll site is perfect for your résumé or other timelines.
-## [HERE](http://himsel.me/jekyll-timeline/) is a demo
-## screenshots
-![SCREENSHOT RÉSUMÉ](screenshot.png)
-![SCREENSHOT COMPOSERS](screenshot2.png)
-
-## how to use it?
-1. Fork this repository
-2. Configure Github-Pages in the Repo Settings
-3. Edit the Markdown files in the collection `steps` in the `_steps` folder  
-    
-    Required data fields in the frontmatter:
-    
-    - `title: <TITLE>`
-    - `date: 2016-09-31 00:00:00 -0700` (Only Year and Month are shown)
-
-    Optional fields:
-
-    - `enddate: 2017-1-1 00:00:00 -0700`
-4. Change site configuration `_config.yml`
-
-    - the Site title: `title`
-    - background color `color`
-    - url (***very important***) `url`
-    - baseurl (***important***) `baseurl` (name it after the repo)
-    - site's `description`
-5. You're done! (Look at https://<*USERNAME*>.github.io/<*REPO*>)
-
-Feel free to contribute, give feedback, a star, and share it!
+* 책읽고 느낀바가 없지만 느껴볼려고 만들었습니다. 그러다 보니 깊이가 있는 독후감이 없고, 거의가 개드립이 많으니 주의해서 읽어주세요.
