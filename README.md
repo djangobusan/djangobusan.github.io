@@ -1,5 +1,5 @@
-# Sigmadream's Book Blog
+# 장고 부산 사용자 모임(DUBG) 스터디 및 모임 관련 홈페이지
 
-* 이 블로그는 Jekyll Now를 수정하여 만든 [Easyjekyll](http://halryang.net/Jekyll-Blogging-For-Beginners/)를 사용한 것입니다. 
+* 이 블로그는 Jekyll Now를 수정하여 만든 [Easyjekyll](http://halryang.net/Jekyll-Blogging-For-Beginners/)를 사용했습니다.
 
-* 책읽고 느낀바가 없지만 느껴볼려고 만들었습니다. 그러다 보니 깊이가 있는 독후감이 없고, 거의가 개드립이 많으니 주의해서 읽어주세요.
+* 장고 부산 사용자 모임(DUBG)과 관련된 소식을 전해드립니다.
