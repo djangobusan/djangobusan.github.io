@@ -9,6 +9,8 @@ tags: django
 
 Django(라 쓰고 `Python`..이라 읽어봅시다!) 부산 사용자 커뮤니티 2차 모임을 토요일(12월 09일)에 경성대에서 두번째 스터디를 진행하였습니다.
 
+<img src="{{ site.baseurl }}/images/20171209.jpg" style="width: 400px;"/>
+
 ## 요약하자면
 
 ### Django 2.0의 튜토리얼 진행

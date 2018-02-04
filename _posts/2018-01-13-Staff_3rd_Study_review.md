@@ -9,6 +9,8 @@ tags: django
 
 Django(라 쓰고 `Python`..이라 읽어봅시다!) 부산 사용자 커뮤니티 3차 모임을 토요일(01월 06일)에 경성대에서 세번째 스터디를 진행하였습니다.
 
+<img src="{{ site.baseurl }}/images/20180106.jpg" style="width: 400px;"/>
+
 ## 요약하자면
 
 ### M.V.T 방법으로 작은 프로젝트 시작

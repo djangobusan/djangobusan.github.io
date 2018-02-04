@@ -9,6 +9,8 @@ tags: django
 
 Django(라 쓰고 `Python`..이라 읽어봅시다!) 부산 사용자 커뮤니티 1차 모임을 토요일(11월 25일)에 경성대에서 첫번째 스터디를 진행하였습니다.
 
+<img src="{{ site.baseurl }}/images/20171125.jpg" style="width: 400px;"/>
+
 ## 요약하자면
 
 * 윈도우(>= 10)를 기준으로 Python(>= 3 and x64)을 설치하고, VSCode(thx MS!), django(>= 1.11.1)을 설치하고 django의 공식 홈페이지에 나와있는 튜토리얼을 다 같이 차근 차근 진행하였습니다.
