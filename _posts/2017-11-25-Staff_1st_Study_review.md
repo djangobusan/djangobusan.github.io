@@ -5,8 +5,6 @@ author: sigmadream
 tags: django
 ---
 
-# Django Staff 첫번째 스터디 후기
-
 Django(라 쓰고 `Python`..이라 읽어봅시다!) 부산 사용자 커뮤니티 1차 모임을 토요일(11월 25일)에 경성대에서 첫번째 스터디를 진행하였습니다.
 
 <img src="{{ site.baseurl }}/images/20171125.jpg" style="width: 400px;"/>
