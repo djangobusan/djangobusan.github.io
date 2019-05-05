@@ -20,5 +20,5 @@ tags: django
 
 ## 슬라이드 및 예제 링크
 
-* [슬라이드]("{{ site.baseurl }}/files/Django-Hands-On/Django-Hands-on-Beginner.pdf")
-* [예제]("{{ site.baseurl }}/files/Django-Hands-On/Django-Hands-on-Beginner.zip")
+* [슬라이드]({{ site.baseurl }}/files/Django-Hands-On/Django-Hands-on-Beginner.pdf)
+* [예제]({{ site.baseurl }}/files/Django-Hands-On/Django-Hands-on-Beginner.zip)
